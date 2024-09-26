@@ -10,7 +10,7 @@ services:
       - 8080:8080
   db:
     image: mysql:8.0
-    container_name: todo_db
+    container_name: mysql_db
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: root
